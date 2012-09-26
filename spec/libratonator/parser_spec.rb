@@ -5,12 +5,8 @@ describe Libratonator::Parser do
     let(:parser) { Libratonator::Parser.new }
     let(:sample) { 'foo 12345 67890' }
 
-    it 'should return an array' do
-      parser.parse(sample).should be_kind_of(Array)
-    end
-
-    it 'should return an array with 3 elements' do
-      parser.parse(sample).size.should eq(3)
+    it 'should return a hash' do
+      parser.parse(sample).should be_kind_of(Hash)
     end
   end
 end
