@@ -1,6 +1,6 @@
 # Libratonator
 
-TODO: Write a gem description
+Experimental CLI tool to pipe Graphite's Carbon data to Librato Metrics
 
 ## Installation
 
@@ -18,7 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```bash
+# take standard Carbon data, pipe it to Librato
+$ echo foo.measurement 12345 1348688087 | libratonator
+```
 
 ## Contributing
 
