@@ -1,6 +1,6 @@
 # Libratonator
 
-Experimental CLI tool to pipe Graphite's Carbon data to Librato Metrics
+Experimental CLI tool to pipe Graphite's Carbon data to [Librato Metrics](http://metrics.librato.com)
 
 ## Installation
 
