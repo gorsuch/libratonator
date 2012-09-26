@@ -25,6 +25,12 @@ Data is piped into `libratonator` formatted as the Graphite's [plaintext protoco
 $ echo foo.measurement 12345 1348688087 | libratonator
 ```
 
+If you are wild and crazy, this can be used in conjuction with [carbonator](https://github.com/gorsuch/carbonator):
+
+```bash
+$ echo host=foo measurement=12345 a=1 b=2 c=3 | carbonator | libratonator
+```
+
 ## Contributing
 
 1. Fork it
