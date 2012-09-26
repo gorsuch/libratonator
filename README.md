@@ -18,6 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
+Data is piped into `libratonator` formatted as the Graphite's [plaintext protocol](http://graphite.readthedocs.org/en/latest/feeding-carbon.html):
+
 ```bash
 # take standard Carbon data, pipe it to Librato
 $ echo foo.measurement 12345 1348688087 | libratonator
